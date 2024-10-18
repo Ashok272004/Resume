@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 65%;
+    margin: 20px auto;
+    height: 170vh;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 8px 16px 0;
+}
+
+header {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 20vh;
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+.container header img {
+    position: absolute;
+    z-index: 2;
+    height: 30vh;
+    left: 80px;
+    top: -30px;
+    border: 2px solid aquamarine;
+    border-radius: 100%;
+}
+
+.container header h1 {
+    font-family: "Alice", serif;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    font-size: 2.3rem;
+}
+
+.container header p {
+    position: absolute;
+    left: 330px;
+    top: 75px;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 100%;
+    width: 20vw;
+    background-color: black;
+    color: snow;
+}
+
+aside .left-aside {
+    position: absolute;
+    top: 25%;
+}
+
+aside .left-aside .contact, .language, h3, ul li {
+    margin: 20px;
+    align-content: center;
+}
+
+aside .left-aside .languages h3 {
+    text-align: center;
+    align-content: center;
+    height: 5vh;
+    width: 200px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+}
+
+.right-section {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+.right-section h3 {
+    text-align: center;
+    align-content: center;
+    height: 5vh;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.right-section .about-me p {
+    text-align: justify;
+    height: 13vh;
+    width: 90%;
+}
